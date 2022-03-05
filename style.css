@@ -73,6 +73,56 @@ a {
     color: #4c241d;
 }
 
+#wrapper {
+    display: grid;
+    grid-template-areas:
+    'mn mn as'
+    'mn mn as'
+    'ft ft ft';
+}
+
+main {
+    grid-area: mn;
+    height: 70vh;
+    width: 60vw;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 1vh 3vw 2vh 2vw;
+    border: 3px solid #4c241d;
+    background-image: url(img/hund2.jpg);
+    background-size: cover;
+    
+}
+
+aside {
+    grid-area: as;
+    height: 70vh;
+    width: 30vw;
+    margin: 1vh 2vw 2vh 2vw;
+    color: #4c241d;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1.5vw;
+    box-sizing: border-box;
+    border: 3px solid #4c241d;
+}
+
+footer {
+    grid-area: ft;
+    height: 20vh;
+    background-color: #e47665;
+}
+
+/*#frontHund{
+    object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+    
+}*/
+
+
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position:fixed;
@@ -111,50 +161,29 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    #wrapper {
+       display: grid;
+        grid-template-areas: 
+        'mn'
+        'as'
+        'ft';
+        
+    }
+
+    main {
+       width: auto;
+       background-position: center;
+    }
+
+    aside {
+        width: auto;
+    }
+    
+    
 }
 
-#wrapper {
-    display: grid;
-    grid-template-areas:
-    'mn mn as'
-    'mn mn as'
-    'ft ft ft'
-    ;
 
-}
 
-main {
-    grid-area: mn;
-    height: 70vh;
-    width: 60vw;
-    color: #4c241d;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 1.5vw;
-    box-sizing: border-box;
-    margin: 1vh 3vw 2vh 2vw;
-    border: 3px solid #4c241d;
-}
-
-aside {
-    grid-area: as;
-    height: 70vh;
-    width: 30vw;
-    margin: 1vh 2vw 2vh 2vw;
-    color: #4c241d;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 1.5vw;
-    padding-right: 2vw;
-    box-sizing: border-box;
-    border: 3px solid #4c241d;
-}
-
-footer {
-    grid-area: ft;
-    height: 20vh;
-    border: 3px solid #4c241d;
-}
 
 
 
