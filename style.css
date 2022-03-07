@@ -143,6 +143,30 @@ footer {
     transform: scale(0.8);
 }
 
+.skrutt-wrapper {
+    display: grid;
+    grid-template-areas: 
+    's1' 's2'
+    's1' 's2';
+    
+    
+}
+
+.bild {
+    grid-area: s1;
+    border: #4c241d solid 5px;
+    height: 80vh;
+    width: 10vw;
+}
+
+.namn {
+    grid-area: s2;
+    border: #4c241d solid 5px;
+    height: 50vh;
+    width: 10vw;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
