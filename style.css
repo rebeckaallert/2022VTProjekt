@@ -168,6 +168,39 @@ footer {
     width: 100%;
 }
 
+h1 {
+    font-size: 4em;
+    display: block;
+    margin-bottom: 3vh;
+}
+
+.b1 {
+    font-size: 2em;
+    line-height: 1.3;
+    display: block;
+    margin-bottom: 2vh;
+}
+
+.b2 {
+    font-size: 2em;
+    line-height: 1.3;
+    display: block;
+    margin-bottom: 2vh;
+}
+
+.b3 {
+    font-size: 2em;
+    line-height: 1.3;
+    display: block;
+    margin-bottom: 2vh;
+}
+
+.b4 {
+    font-size: 2em;
+    line-height: 1.3;
+    display: block;
+    margin-bottom: 2vh;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -236,7 +269,25 @@ footer {
     
     }
     
+    .skrutt-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5vw;
+        margin: 10vh 4vw 10vh 4vw;
+    }
     
+    .namn {
+        height: 80vh;
+        width: auto;
+        margin-left: 1vw;
+        margin: right 1vw;
+    }
+
+    .bild {
+        height: auto;
+        width: auto;
+       
+    }
 }
 
 
