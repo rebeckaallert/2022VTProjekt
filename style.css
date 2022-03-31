@@ -80,8 +80,7 @@ a {
     display: grid;
     grid-template-areas:
     'mn mn as'
-    'mn mn as'
-    'ft ft ft';
+    'mn mn as';
 }
 
 main {
